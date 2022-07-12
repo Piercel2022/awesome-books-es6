@@ -1,5 +1,5 @@
-
-import Library,{ displayBook } from './modules/library.js';
+/* eslint-disable no-unused-expressions */
+import Library, { displayBook } from './modules/library.js';
 import addBooks from './modules/addBook.js';
 import * as Menu from './modules/menu.js';
 import { DateTime } from './modules/luxon.js';
@@ -30,7 +30,7 @@ addBtn.addEventListener('click', () => {
   if (titleField === '' || authorField.value === '') {
     notice.classList.remove('hidden');
   } else {
-  library.title = titleField.value;
+    library.title = titleField.value;
     library.author = authorField.value;
     addBooks(library, library);
     bookContainer.innerHTML = '';
@@ -42,7 +42,7 @@ addBtn.addEventListener('click', () => {
 
 // remove error message upon clicking on the form text field
 document.onclick = (e) => {
-  if (e.target.id === 'titleField'|| e.target.id === 'authorField'
+  if (e.target.id === 'titleField' || e.target.id === 'authorField'
   ) {
     notice.classList.add('hidden');
   }
