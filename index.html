@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+</head>
+<body class="flex-container">
+    <div class="container flex-container">
+        <nav>
+            <a href="#"><h1>Awesome Books</h1></a>
+            <div class="nav-link">
+                <a class="list-link active" href="#">List</a>
+                <span class="line"></span>
+                <a class="add-link" href="#">Add new</a>
+                <span class="line"></span>
+                <a class="contact-link" href="#">Contact</a>
+            </div>
+        </nav>
+        <p class="time"></p>
+
+        <main>
+            <!--List of awesome books-->
+            <div class="list-book-container">
+                <h2 class="text-center">All awesome books</h2>
+                <div class="book-container">
+                </div>
+    
+            </div>
+            <!--Form input-->
+            <div class="container-form flex-container hidden">
+                <h2 class="text-center">Add a new book</h2>
+                <form id="form">
+                    <input type="text" placeholder="Title" id="titleField" required>
+                    <input type="text" placeholder="Author" id="authorField" required>
+                    <br> <br>
+                    <div class="add-btn-container">
+                        <button type="button" id="addBtn">Add</button>
+                    </div>
+                    <p class="notice hidden"> Please enter some data</p>
+                </form>
+
+            </div>
+
+            <!--Contact info-->
+            <div class="contact-info hidden">
+                <h2 class="text-center">Contact information</h2>
+                <p>Do have any suggestion to share with us? You can reach out to us!</p>
+                <ul>
+                    <li>E-mail: awesomebooks@mail.com</li>
+                    <li>Phone number: 0034526745</li>
+                    <li>Address: 2 Rue Lafayette  34789 ourCity, ourCountry</li>
+                </ul>
+            </div>
+            
+        
+            <script type="module" src="index.js"></script>
+
+    <footer class="copyright">
+        <p>Copyright   awesome books 2022</p>
+    </footer>
+
+
+        </main>
+        
+    </div>
+    
+</body>
+</html>
