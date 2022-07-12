@@ -1,0 +1,169 @@
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.container {
+  width: 80%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 80vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 3px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link a {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link a:hover {
+  color: blue;
+}
+
+.line {
+  border-right: 3px solid black;
+  margin-right: 20px;
+}
+
+.time {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.active {
+  color: blue;
+}
+
+.list-book-container {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.book-container {
+  border: 3px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.book-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.p-list {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p-list p {
+  margin: 0;
+  padding: 6px;
+}
+
+.book-list:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.container-form {
+  margin-top: 80px;
+}
+
+form {
+  width: 300px;
+}
+
+input {
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#addBtn {
+  width: 37%;
+  height: 35px;
+  font-size: 27px;
+}
+
+.remove {
+  background: white;
+  width: 100px;
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 0.5em;
+}
+
+.notice {
+  text-align: center;
+  font-size: 18px;
+  color: #f00;
+}
+
+.contact-info {
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.copyright {
+  align-self: flex-start;
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid black;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  padding: 0;
+  background:
+    linear-gradient(to right, #606c8869, #7380a0),
+    url('/image/istockphoto-1126130554-170667a.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#titleField {
+  padding: 0.9em;
+}
+
+#authorField {
+  padding: 0.9em;
+}
