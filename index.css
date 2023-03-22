@@ -138,7 +138,10 @@ input {
   margin-top: 80px;
   font-weight: bold;
 }
-
+.adress{
+  display: flex;
+  justify-content: center;
+}
 .copyright {
   align-self: flex-start;
   font-size: 17px;
@@ -155,7 +158,7 @@ body {
   padding: 0;
   background:
     linear-gradient(to right, #606c8869, #7380a0),
-    url('/image/istockphoto-1126130554-170667a.jpg') no-repeat center center;
+    url('/image/toronto-library-min.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
 }

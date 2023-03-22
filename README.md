@@ -24,7 +24,7 @@ cd awesome-books-es6
 
 
 
-### Install : 
+### Install :
 To install linters and other project's dependencies run:
 npm install
 
