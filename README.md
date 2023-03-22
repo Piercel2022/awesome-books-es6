@@ -30,7 +30,7 @@ npm install
 
 
 ## Link Demo:
-https://piercel2022.github.io/awesome-books-es6/
+https://awesome-books-390387.netlify.app/
 
 ## Author
 
